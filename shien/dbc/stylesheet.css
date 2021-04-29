@@ -1,0 +1,238 @@
+
+html{
+}
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+    padding: 0;        
+    width:100%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a:hover{
+      color: red;
+  }
+p{
+    white-space: pre-wrap;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    /*background-image:url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg");
+    z-index: 1;
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
+    */margin: 0 auto;
+}
+main{
+    margin-top:100px;
+}
+.container{
+    width: 1366px;
+    padding:0 15px;
+    margin: 0 auto;
+}
+.header-wrapper{
+    height:200px;
+    display:flex;
+    justify-content: start;
+    margin-top:15px;
+}
+
+.header-left{
+    width : calc(100% / 3) ;
+    text-align: left;
+    font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+    text-shadow: 1px 1px 3px silver;
+}
+ul{
+    display: list-item;
+    list-style: none;
+}
+.header-center{
+    text-align: center;
+    white-space: nowrap;
+    font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+    letter-spacing: 0.5em;
+    text-shadow: 3px 3px 6px silver;
+    width:calc(100% / 3) ;
+}
+.header-right{   
+    width : calc(100% / 3) ;
+    text-align: right;
+    font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+    text-shadow: 1px 1px 3px silver;
+}
+.logo{
+    display:flex;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+.title{
+    text-align: center;
+    padding-top:10px;
+
+}
+.select{
+    width:50%;
+
+    /*margin: 0 10px;*/
+}
+.off_select{
+    width:90%;
+    height:400px;
+    font-size: 50px;
+    white-space: nowrap;
+    border-radius: 10px;
+    opacity:0.6;
+    cursor: pointer;
+    background-color:#BBFFFF;
+    border-bottom: 8px solid#99FFFF;
+    border-top:5px solid #EEFFFF;
+    border-right:none ;
+    border-left:none ;
+    outline: none;
+}
+.off_select:hover{
+    opacity: 1;
+}
+.off_select:active{
+    -webkit-transform: translate(0,2px);
+	-moz-transform: translate(0,2px);
+	transform: translate(0,2px);
+	border-bottom:none;
+}
+/* 以下select.php */
+.category-wrapper{
+    text-align: center;
+}
+.category h2{
+    margin: 20px 0 20px 0;
+}
+.category-list{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.category-line{
+    width : calc(100% / 3) ;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cate_select{
+    width: 90%;
+    height:200px;
+    font-size: 50px;
+    white-space: nowrap;
+    border-radius: 10px;
+    opacity:0.6;
+    cursor: pointer;
+    background-color:#BBFFFF;
+    border-bottom: 8px solid#99FFFF;
+    border-top:5px solid #EEFFFF;
+    border-right:none ;
+    border-left:none ;
+    outline: none;
+}
+
+.cate_select:hover{
+    opacity: 1;
+}
+.cate_select:active{
+    -webkit-transform: translate(0,2px);
+	-moz-transform: translate(0,2px);
+	transform: translate(0,2px);
+	border-bottom:none;
+}
+/* 以下sled.php*/
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.sled-wrapper{
+    background-color: #DDDDDD;
+    text-align: center;
+    height:100%;
+}
+.sled-wrapper .title{
+    background-color: white;
+}
+.sled-tbl{
+    display:block;
+    width:100%;
+}
+.sled-tbl-line{
+    width:80%;
+    margin: 0 auto;
+    
+}
+.sled-tbl-list{
+    display:block;
+    text-align: center;
+    margin-top:10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border:0.5px solid #DDDDDD;
+    background-color:white ;
+    outline: none;
+    padding:0 10px;
+
+}
+#sled-title{
+    font-size:18px;
+}
+#sled-contents{
+    font-size: 13px;
+}
+
+/*以下 comment.php*/
+.c-container{
+    margin: 0 auto;
+}
+.a-container{
+    padding:0 10px;
+}
+.c-wrapper{
+    margin: 0 auto;
+}
+.c-outline{
+    display:block;
+    width:100%;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.c-sled {
+    width:100%;
+    display: block;
+}
+.c-s-title{
+    text-align: center;
+}
+.c-cooment{
+    width:100%;
+}
+.c-list{
+    border:0.5px solid #DDDDDD;
+    border-radius: 5px;
+    background-color:#EEEEEE ;
+    margin-top:10px;
+}
+.id{
+    margin-right:7px;
+    opacity: 1;
+    font-weight: bolder;
+}
+.c-list-id p{
+    opacity: 0.8;
+}
+.c-wrapper p{
+    font-size:16px;
+}
